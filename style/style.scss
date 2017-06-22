@@ -1,0 +1,18 @@
+$title_color : rgba(123, 243, 223, 0.7);
+$title-margin: 20px;
+$font_title_weight : bold; 
+$font_title_size : 50px; 
+$font_title: "Arial";
+$title-height: 90px;
+
+h1{
+    font-weight: $font_title_weight;
+    font-size: $font_title_size;
+    font: $font_title;
+    margin-top: $title-margin;
+    margin-bottom: $title-margin;
+    padding: $title-margin;
+    background-color: $title_color;
+    min-height: $title-height;
+}
+
